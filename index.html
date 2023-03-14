@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
+    <p id="linkpage">bhwdjkdbkdhjbdkjdhmbdljhdnwbdjldjfkhddjbkdhwldjbe,kfhwefk,hfjwfh.jkfhl.jfkeflj</p>
+
     <h1> Bold tags</h1>
     <b>Hello World</b><br>
     <strong>Hello world</strong>
@@ -25,7 +27,65 @@
     <del>Hello World</del><br>
     
 
-    <img src="image.jpg">
+    <img src="image.jpg" alt="image.jpg" border="5" title="sun rise" width="200" height="200" hspace="100" vspace="50">
+
+    <h1>Anchor tag</h1>
+    <p> used to link from one page to another</p><br>
+    <a href="https://www.google.com/">google.com</a><br>
+    <a href="https://www.youtube.com/" target="_blank">Youtube </a> <!-- _blank is used to open the page to a new tab and
+                                                                         _self is used to open page on the same page -->
+    <br>
+    <a href="#linkpage" >my page</a><!--it is also used to link the page -->
+    <!--<p id="linkpage">bhwdjkdbkdhjbdkjdhmbdljhdnwbdjldjfkhddjbkdhwldjbe,kfhwefk,hfjwfh.jkfhl.jfkeflj</p>-->
+    <br>
+    <hr>
+
+    <h1>List in html</h1>
+    <p>three types </p>
+    <pre>1-unordered list</pre>
+    <pre>2-ordered list</pre>
+    <pre>3-definition list</pre>
+
+    <br>
+
+    <h4>Unordered List</h4>
+    <ul type="circle"> <!-- if we not use the circle or disc, by default is show the bullet-->
+        <li>milk
+            <ul>
+                <li>milk 1</li>
+                <li>milk 2</li>
+                <li>milk 3</li>
+                <li>milk 4</li>
+            </ul>
+        </li>
+        <li>coffee</li>
+        <li>tea</li>
+        <li>cold coffee</li>
+    </ul>
+    <hr>
+    <br>
+    <h4>Ordered List</h4>
+    <ol type="A" start="7"><!--we also use 1 in type and G  use in start(type="1" start="G") -->
+        <li>coffee</li>
+        <ol>
+            <li>coffee</li>
+            <li>coffee</li>
+            <li>coffee</li>
+            <li>coffee</li>
+        </ol>
+        <li>tea</li>
+        <li>cold coffee</li>
+        <li>milk</li>
+    </ol>
+    <hr> <br>
+    <h4>Definition List</h4>
+    <dl>
+        <dt>Milk</dt><!--definition term-->
+        <dd>it is white in color</dd><!--definition describe-->
+    </dl>
+
+    
+
 
     <!--git remote add origin https://github.com/Anubhav-Jain05/HTML-CSS.git
 git branch -M main
